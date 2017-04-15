@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229497CF1EA1D72100743ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229497CE1EA1D72100743ACA /* AppDelegate.swift */; };
+		229497D11EA1D72100743ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229497D01EA1D72100743ACA /* ViewController.swift */; };
+		229497D41EA1D72100743ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229497D21EA1D72100743ACA /* Main.storyboard */; };
+		229497D61EA1D72100743ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229497D51EA1D72100743ACA /* Assets.xcassets */; };
+		229497D91EA1D72100743ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229497D71EA1D72100743ACA /* LaunchScreen.storyboard */; };
+		229497E41EA1D72100743ACA /* iOSClientForPerfectNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229497E31EA1D72100743ACA /* iOSClientForPerfectNoteTests.swift */; };
+		229497EF1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229497EE1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229497E01EA1D72100743ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229497C31EA1D72100743ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229497CA1EA1D72100743ACA;
+			remoteInfo = iOSClientForPerfectNote;
+		};
+		229497EB1EA1D72100743ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229497C31EA1D72100743ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229497CA1EA1D72100743ACA;
+			remoteInfo = iOSClientForPerfectNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229497CB1EA1D72100743ACA /* iOSClientForPerfectNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSClientForPerfectNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229497CE1EA1D72100743ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229497D01EA1D72100743ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229497D31EA1D72100743ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229497D51EA1D72100743ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229497D81EA1D72100743ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229497DA1EA1D72100743ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229497DF1EA1D72100743ACA /* iOSClientForPerfectNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSClientForPerfectNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229497E31EA1D72100743ACA /* iOSClientForPerfectNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClientForPerfectNoteTests.swift; sourceTree = "<group>"; };
+		229497E51EA1D72100743ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229497EA1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSClientForPerfectNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229497EE1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClientForPerfectNoteUITests.swift; sourceTree = "<group>"; };
+		229497F01EA1D72100743ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229497C81EA1D72100743ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229497DC1EA1D72100743ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229497E71EA1D72100743ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229497C21EA1D72100743ACA = {
+			isa = PBXGroup;
+			children = (
+				229497CD1EA1D72100743ACA /* iOSClientForPerfectNote */,
+				229497E21EA1D72100743ACA /* iOSClientForPerfectNoteTests */,
+				229497ED1EA1D72100743ACA /* iOSClientForPerfectNoteUITests */,
+				229497CC1EA1D72100743ACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229497CC1EA1D72100743ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229497CB1EA1D72100743ACA /* iOSClientForPerfectNote.app */,
+				229497DF1EA1D72100743ACA /* iOSClientForPerfectNoteTests.xctest */,
+				229497EA1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229497CD1EA1D72100743ACA /* iOSClientForPerfectNote */ = {
+			isa = PBXGroup;
+			children = (
+				229497CE1EA1D72100743ACA /* AppDelegate.swift */,
+				229497D01EA1D72100743ACA /* ViewController.swift */,
+				229497D21EA1D72100743ACA /* Main.storyboard */,
+				229497D51EA1D72100743ACA /* Assets.xcassets */,
+				229497D71EA1D72100743ACA /* LaunchScreen.storyboard */,
+				229497DA1EA1D72100743ACA /* Info.plist */,
+			);
+			path = iOSClientForPerfectNote;
+			sourceTree = "<group>";
+		};
+		229497E21EA1D72100743ACA /* iOSClientForPerfectNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				229497E31EA1D72100743ACA /* iOSClientForPerfectNoteTests.swift */,
+				229497E51EA1D72100743ACA /* Info.plist */,
+			);
+			path = iOSClientForPerfectNoteTests;
+			sourceTree = "<group>";
+		};
+		229497ED1EA1D72100743ACA /* iOSClientForPerfectNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				229497EE1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.swift */,
+				229497F01EA1D72100743ACA /* Info.plist */,
+			);
+			path = iOSClientForPerfectNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229497CA1EA1D72100743ACA /* iOSClientForPerfectNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229497F31EA1D72100743ACA /* Build configuration list for PBXNativeTarget "iOSClientForPerfectNote" */;
+			buildPhases = (
+				229497C71EA1D72100743ACA /* Sources */,
+				229497C81EA1D72100743ACA /* Frameworks */,
+				229497C91EA1D72100743ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSClientForPerfectNote;
+			productName = iOSClientForPerfectNote;
+			productReference = 229497CB1EA1D72100743ACA /* iOSClientForPerfectNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229497DE1EA1D72100743ACA /* iOSClientForPerfectNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229497F61EA1D72100743ACA /* Build configuration list for PBXNativeTarget "iOSClientForPerfectNoteTests" */;
+			buildPhases = (
+				229497DB1EA1D72100743ACA /* Sources */,
+				229497DC1EA1D72100743ACA /* Frameworks */,
+				229497DD1EA1D72100743ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229497E11EA1D72100743ACA /* PBXTargetDependency */,
+			);
+			name = iOSClientForPerfectNoteTests;
+			productName = iOSClientForPerfectNoteTests;
+			productReference = 229497DF1EA1D72100743ACA /* iOSClientForPerfectNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229497E91EA1D72100743ACA /* iOSClientForPerfectNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229497F91EA1D72100743ACA /* Build configuration list for PBXNativeTarget "iOSClientForPerfectNoteUITests" */;
+			buildPhases = (
+				229497E61EA1D72100743ACA /* Sources */,
+				229497E71EA1D72100743ACA /* Frameworks */,
+				229497E81EA1D72100743ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229497EC1EA1D72100743ACA /* PBXTargetDependency */,
+			);
+			name = iOSClientForPerfectNoteUITests;
+			productName = iOSClientForPerfectNoteUITests;
+			productReference = 229497EA1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229497C31EA1D72100743ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HanYiHan;
+				TargetAttributes = {
+					229497CA1EA1D72100743ACA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J2ATC22AZM;
+						ProvisioningStyle = Automatic;
+					};
+					229497DE1EA1D72100743ACA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J2ATC22AZM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 229497CA1EA1D72100743ACA;
+					};
+					229497E91EA1D72100743ACA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J2ATC22AZM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 229497CA1EA1D72100743ACA;
+					};
+				};
+			};
+			buildConfigurationList = 229497C61EA1D72100743ACA /* Build configuration list for PBXProject "iOSClientForPerfectNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229497C21EA1D72100743ACA;
+			productRefGroup = 229497CC1EA1D72100743ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229497CA1EA1D72100743ACA /* iOSClientForPerfectNote */,
+				229497DE1EA1D72100743ACA /* iOSClientForPerfectNoteTests */,
+				229497E91EA1D72100743ACA /* iOSClientForPerfectNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229497C91EA1D72100743ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229497D91EA1D72100743ACA /* LaunchScreen.storyboard in Resources */,
+				229497D61EA1D72100743ACA /* Assets.xcassets in Resources */,
+				229497D41EA1D72100743ACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229497DD1EA1D72100743ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229497E81EA1D72100743ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229497C71EA1D72100743ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229497D11EA1D72100743ACA /* ViewController.swift in Sources */,
+				229497CF1EA1D72100743ACA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229497DB1EA1D72100743ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229497E41EA1D72100743ACA /* iOSClientForPerfectNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229497E61EA1D72100743ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229497EF1EA1D72100743ACA /* iOSClientForPerfectNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229497E11EA1D72100743ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229497CA1EA1D72100743ACA /* iOSClientForPerfectNote */;
+			targetProxy = 229497E01EA1D72100743ACA /* PBXContainerItemProxy */;
+		};
+		229497EC1EA1D72100743ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229497CA1EA1D72100743ACA /* iOSClientForPerfectNote */;
+			targetProxy = 229497EB1EA1D72100743ACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229497D21EA1D72100743ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229497D31EA1D72100743ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229497D71EA1D72100743ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229497D81EA1D72100743ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229497F11EA1D72100743ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229497F21EA1D72100743ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229497F41EA1D72100743ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2ATC22AZM;
+				INFOPLIST_FILE = iOSClientForPerfectNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjk.iOSClientForPerfectNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		229497F51EA1D72100743ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2ATC22AZM;
+				INFOPLIST_FILE = iOSClientForPerfectNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjk.iOSClientForPerfectNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		229497F71EA1D72100743ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2ATC22AZM;
+				INFOPLIST_FILE = iOSClientForPerfectNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjk.iOSClientForPerfectNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSClientForPerfectNote.app/iOSClientForPerfectNote";
+			};
+			name = Debug;
+		};
+		229497F81EA1D72100743ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2ATC22AZM;
+				INFOPLIST_FILE = iOSClientForPerfectNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjk.iOSClientForPerfectNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSClientForPerfectNote.app/iOSClientForPerfectNote";
+			};
+			name = Release;
+		};
+		229497FA1EA1D72100743ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J2ATC22AZM;
+				INFOPLIST_FILE = iOSClientForPerfectNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjk.iOSClientForPerfectNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSClientForPerfectNote;
+			};
+			name = Debug;
+		};
+		229497FB1EA1D72100743ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J2ATC22AZM;
+				INFOPLIST_FILE = iOSClientForPerfectNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjk.iOSClientForPerfectNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSClientForPerfectNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229497C61EA1D72100743ACA /* Build configuration list for PBXProject "iOSClientForPerfectNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229497F11EA1D72100743ACA /* Debug */,
+				229497F21EA1D72100743ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229497F31EA1D72100743ACA /* Build configuration list for PBXNativeTarget "iOSClientForPerfectNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229497F41EA1D72100743ACA /* Debug */,
+				229497F51EA1D72100743ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		229497F61EA1D72100743ACA /* Build configuration list for PBXNativeTarget "iOSClientForPerfectNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229497F71EA1D72100743ACA /* Debug */,
+				229497F81EA1D72100743ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		229497F91EA1D72100743ACA /* Build configuration list for PBXNativeTarget "iOSClientForPerfectNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229497FA1EA1D72100743ACA /* Debug */,
+				229497FB1EA1D72100743ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229497C31EA1D72100743ACA /* Project object */;
+}
